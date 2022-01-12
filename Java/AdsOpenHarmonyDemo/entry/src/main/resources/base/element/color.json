@@ -1,0 +1,28 @@
+{
+  "color": [
+    {
+      "name": "black",
+      "value": "#000000"
+    },
+    {
+      "name": "white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "red",
+      "value": "#FF0000"
+    },
+    {
+      "name": "blue",
+      "value": "#214EF3"
+    },
+    {
+      "name": "demo_20_percent_gray",
+      "value": "#338D8D8D"
+    },
+    {
+      "name": "transparent",
+      "value": "#00000000"
+    }
+  ]
+}

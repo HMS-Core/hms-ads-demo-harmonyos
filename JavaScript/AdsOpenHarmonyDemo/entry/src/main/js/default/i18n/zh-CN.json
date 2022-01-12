@@ -1,0 +1,20 @@
+{
+  "strings": {
+    "next": "下一步",
+    "native": "原生广告",
+    "banner": "横幅广告",
+    "requestAd": "请求广告",
+    "showAd": "展示广告",
+    "reward": "激励广告",
+    "interstitial": "插屏广告",
+    "init": "请求广告",
+    "loading": "加载中...",
+    "loaded": "展示广告",
+    "shown": "重新请求广告",
+    "error": "请求广告",
+    "refresh_time": "刷新间隔",
+    "select_size_text": "请选择横幅尺寸",
+    "banner_size": "横幅尺寸",
+    "ad_text": "广告"
+  }
+}

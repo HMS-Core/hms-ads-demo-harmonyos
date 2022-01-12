@@ -1,0 +1,37 @@
+{
+	"agcgw_all":{
+		"CN":"connect-drcn.dbankcloud.cn",
+		"CN_back":"connect-drcn.hispace.hicloud.com",
+		"DE":"connect-dre.dbankcloud.cn",
+		"DE_back":"connect-dre.hispace.hicloud.com",
+		"RU":"connect-drru.dbankcloud.cn",
+		"RU_back":"connect-drru.hispace.hicloud.com",
+		"SG":"connect-dra.dbankcloud.cn",
+		"SG_back":"connect-dra.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"890086000300420789",
+		"product_id":"737518067793684300",
+		"client_id":"754203650938649536",
+		"client_secret":"[!00D8BA9661558FA359A4D366E6B3524150AE56D375E970D0E20D24BB8CA6308A5F4DFEBA897BD5862B007EDD811EB02DA95C34F00F46CEA6ABACC898595E5E4A2DACBA75CFA1DFD13091C00F4C5B821ABB732D2EA560764E89C08AAEEBA12D7E40]",
+		"project_id":"737518067793684300",
+		"app_id":"104917397",
+		"api_key":"[!00D14E47FE40B9A144A8B8AD90A951FBD9CA83A517805EC6BDDCEF1E60AC9F8FE8540CA57274ED60CBC0DE290301B98178BB4EF0F82F5CAAE2A7E583B549385411170038D40D310E009F7556DE33395D6EBF5702F1307F74CBA9C4B4D1C30A1668D103EDCE2CCE4ABAD619BECD4D7D1090E64DE314E9FBDE0E199A97267511148D]",
+		"package_name":"com.huawei.hms.ads.ohos.sdk"
+	},
+	"oauth_client":{
+		"client_id":"104917397",
+		"client_type":30
+	},
+	"app_info":{
+		"app_id":"754204944554273664",
+		"package_name":"com.huawei.hms.ads.ohos.sdk"
+	},
+	"code":{
+		"code1":"68BD23D4907A95B1EC87348064B24C6C",
+		"code2":"4F09F4268AAE4E61A46E75DF0733D9A4",
+		"code3":"7C401A81B7F7FFF99B72BCFCAFAACE8C",
+		"code4":"647E3681320DCC756C48872E9270C4E5"
+	},
+	"configuration_version":"3.0"
+}

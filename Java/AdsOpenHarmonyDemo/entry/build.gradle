@@ -1,0 +1,56 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('../keys/hw_ads_ohos_demo_debug.p12')
+            storePassword '0000001803959C25409A9871A2DFD7582060B1337C778FFDAC200FF00E1E04EA803ED3290C2ABF3C'
+            keyAlias = 'HuaweiAdsDemo'
+            keyPassword '0000001859225CD5B37D56C7B0CA048B9240971F40112004FD9C77D6FAAAAC57EDB577FFA4578F1E'
+            signAlg = 'SHA256withECDSA'
+            profile file('../keys/HuaweiAdsOhosDemoDebug.p7b')
+            certpath file('../keys/HuaweiAdsOhosDemoDebug.cer')
+        }
+        release {
+            storeFile file('../keys/hw_ads_ohos_demo_debug.p12')
+            storePassword '0000001803959C25409A9871A2DFD7582060B1337C778FFDAC200FF00E1E04EA803ED3290C2ABF3C'
+            keyAlias = 'HuaweiAdsDemo'
+            keyPassword '0000001859225CD5B37D56C7B0CA048B9240971F40112004FD9C77D6FAAAAC57EDB577FFA4578F1E'
+            signAlg = 'SHA256withECDSA'
+            profile file('../keys/HuaweiAdsOhosDemoReleaseRelease.p7b')
+            certpath file('../keys/HuaweiAdsOhosDemo.cer')
+        }
+    }
+    compileSdkVersion 7
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+        debug {
+            proguardOpt {
+                proguardEnabled false
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testImplementation 'junit:junit:4.13'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:2.0.0.100'
+    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.0.0.300'
+    implementation 'com.gitee.baijuncheng-open-source:coil:1.0.0'
+    implementation 'com.huawei.hms:ads-ohos:63.4.49.300'
+}
+decc {
+    supportType = ['html', 'xml']
+}
+apply plugin: 'com.huawei.agconnect'

@@ -1,0 +1,79 @@
+<!--
+Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<element name="request-btn" src="../../common/request-btn/index.hml"></element>
+<element name="ads-banner" src="../../../../../../node_modules/@hw-ads/ohos-ads/components/ads-banner-view/index.hml">
+</element>
+<div class="container">
+    <div class="item item-first">
+        <label class="label">{{ $t('strings.banner_size') }}：</label>
+        <div class="radio-group">
+            <div>
+                <input type="radio" checked='{{ bannerSize === "BANNER_SIZE_360_57" }}' name="btnSize"
+                       value="BANNER_SIZE_360_57" onchange="onBannerSizeChange('BANNER_SIZE_360_57')">
+                </input>
+                <text>
+                    <span>BANNER_SIZE_360_57</span>
+                </text>
+            </div>
+            <div>
+                <input type="radio" checked='{{ bannerSize === "BANNER_SIZE_360_144" }}' name="btnSize"
+                       value="BANNER_SIZE_360_144" onchange="onBannerSizeChange('BANNER_SIZE_360_144')">
+                </input>
+                <text>
+                    <span>BANNER_SIZE_360_144</span>
+                </text>
+            </div>
+            <div>
+                <input type="radio" checked='{{ bannerSize === "BANNER_SIZE_320_50" }}' name="btnSize"
+                       value="BANNER_SIZE_320_50" onchange="onBannerSizeChange('BANNER_SIZE_320_50')">
+                </input>
+                <text>
+                    <span>BANNER_SIZE_320_50</span>
+                </text>
+            </div>
+            <div>
+                <input type="radio" checked='{{ bannerSize === "BANNER_SIZE_320_100" }}' name="btnSize"
+                       value="BANNER_SIZE_320_100" onchange="onBannerSizeChange('BANNER_SIZE_320_100')">
+                </input>
+                <text>
+                    <span>BANNER_SIZE_320_100</span>
+                </text>
+            </div>
+            <div>
+                <input type="radio" checked='{{ bannerSize === "BANNER_SIZE_SMART" }}' name="btnSize"
+                       value="BANNER_SIZE_SMART" onchange="onBannerSizeChange('BANNER_SIZE_SMART')">
+                </input>
+                <text>
+                    <span>BANNER_SIZE_SMART</span>
+                </text>
+            </div>
+        </div>
+    </div>
+
+    <div class="submit">
+        <request-btn status="{{ status }}" @load-ad="requestAdClickHandler"></request-btn>
+    </div>
+    <div class="banner-container">
+        <ads-banner id="bannerView"
+                    ad-id="{{ adId }}"
+                    size="{{ bannerSize }}"
+                    @ad-loaded="adLoadedHandler"
+                    @ad-failed="adFailedHandler"
+                    @ad-closed="adCloseHandler">
+        </ads-banner>
+    </div>
+</div>

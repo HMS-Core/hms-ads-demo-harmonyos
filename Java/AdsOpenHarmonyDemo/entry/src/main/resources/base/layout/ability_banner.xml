@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:hwads="http://schemas.huawei.com/res/ohos/ads"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:white"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_banner"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="8vp"
+        ohos:right_margin="9vp"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:top_margin="16vp"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:category_title_layout"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$+id:text_banner"
+        ohos:end_margin="16vp"
+        ohos:end_padding="8vp"
+        ohos:orientation="horizontal"
+        ohos:start_margin="16vp"
+        ohos:start_padding="8vp"
+        ohos:top_margin="16vp">
+
+        <Text
+            ohos:id="$+id:banner_tv_size"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="$string:banner_size_label"
+            ohos:text_alignment="vertical_center|start"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+        <Text
+            ohos:id="$+id:banner_tv_colors"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="$string:banner_color_label"
+            ohos:text_alignment="vertical_center|start"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:radio_container_layout"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:category_title_layout"
+        ohos:end_margin="16vp"
+        ohos:end_padding="8vp"
+        ohos:orientation="horizontal"
+        ohos:start_margin="16vp"
+        ohos:start_padding="8vp">
+
+        <RadioContainer
+            ohos:id="$+id:size_radioContainer"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:weight="1">
+
+            <RadioButton
+                ohos:id="$+id:size_320_50"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:marked="true"
+                ohos:text="$string:size_320_50"
+                ohos:text_size="16fp"/>
+
+            <RadioButton
+                ohos:id="$+id:size_320_100"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:size_320_100"
+                ohos:text_size="16fp"/>
+
+            <RadioButton
+                ohos:id="$+id:size_300_250"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:size_300_250"
+                ohos:text_size="16fp"/>
+
+            <RadioButton
+                ohos:id="$+id:size_smart"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:size_smart"
+                ohos:text_size="16fp"/>
+
+            <RadioButton
+                ohos:id="$+id:size_360_57"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:size_360_57"
+                ohos:text_size="16fp"/>
+
+            <RadioButton
+                ohos:id="$+id:size_360_144"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:size_360_144"
+                ohos:text_size="16fp"/>
+        </RadioContainer>
+
+        <RadioContainer
+            ohos:id="$+id:color_radioGroup"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:weight="1">
+
+            <RadioButton
+                ohos:id="$+id:color_white"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:marked="true"
+                ohos:text="$string:color_white"
+                ohos:text_size="16fp"/>
+
+            <RadioButton
+                ohos:id="$+id:color_black"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:color_black"
+                ohos:text_size="16fp"/>
+
+            <RadioButton
+                ohos:id="$+id:color_red"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:color_red"
+                ohos:text_size="16fp"/>
+
+            <RadioButton
+                ohos:id="$+id:color_transparent"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:color_transparent"
+                ohos:text_size="16fp"/>
+        </RadioContainer>
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:refreshButton"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#000000"
+        ohos:below="$id:radio_container_layout"
+        ohos:horizontal_center="true"
+        ohos:padding="$float:hiad_8_vp"
+        ohos:text="$string:load_button_text"
+        ohos:text_color="#FFFFFF"
+        ohos:text_size="18fp"
+        ohos:top_margin="20vp"/>
+
+    <StackLayout
+        ohos:id="$+id:ad_frame"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:horizontal_center="true"
+        ohos:top_margin="30vp"/>
+
+    <com.huawei.hms.ads.banner.BannerView
+        ohos:id="$+id:hw_banner_view"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:horizontal_center="true"
+        hwads:adId="$string:banner_ad_id"
+        hwads:bannerSize="BANNER_SIZE_320_50"/>
+
+</DependentLayout>

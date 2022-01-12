@@ -1,0 +1,256 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "HuaweiAdsOhosDemo"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Huawei Ads Demo Ability"
+    },
+    {
+      "name": "banner_ad",
+      "value": "Banner Ad"
+    },
+    {
+      "name": "native_ad",
+      "value": "Native Ad"
+    },
+    {
+      "name": "reward_ad",
+      "value": "Reward Ad"
+    },
+    {
+      "name": "interstitial_ad",
+      "value": "Interstitial Ad"
+    },
+    {
+      "name": "instream_ad",
+      "value": "Instream Ad"
+    },
+    {
+      "name": "load_button_text",
+      "value": "Load Ad"
+    },
+    {
+      "name": "banner_ad_id",
+      "value": "testw6vs28auh3"
+    },
+    {
+      "name": "size_320_50",
+      "value": "SIZE_320*50"
+    },
+    {
+      "name": "size_320_100",
+      "value": "SIZE_320*100"
+    },
+    {
+      "name": "size_smart",
+      "value": "SIZE_SMART"
+    },
+    {
+      "name": "size_300_250",
+      "value": "SIZE_300*250"
+    },
+    {
+      "name": "size_360_57",
+      "value": "SIZE_360*57"
+    },
+    {
+      "name": "size_360_144",
+      "value": "SIZE_360*144"
+    },
+    {
+      "name": "color_black",
+      "value": "Black"
+    },
+    {
+      "name": "color_white",
+      "value": "White"
+    },
+    {
+      "name": "color_red",
+      "value": "Red"
+    },
+    {
+      "name": "color_transparent",
+      "value": "Transparent"
+    },
+    {
+      "name": "banner_size_label",
+      "value": "Size:"
+    },
+    {
+      "name": "banner_color_label",
+      "value": "Color:"
+    },
+    {
+      "name": "ad_id_native",
+      "value": "testu7m3hc4gvm"
+    },
+    {
+      "name": "ad_id_native_small",
+      "value": "testb65czjivt9"
+    },
+    {
+      "name": "ad_id_native_three",
+      "value": "testr6w14o0hqz"
+    },
+    {
+      "name": "ad_id_native_video",
+      "value": "testy63txaom86"
+    },
+    {
+      "name": "ad_flag",
+      "value": "Ad"
+    },
+    {
+      "name": "display_form",
+      "value": "Display form:"
+    },
+    {
+      "name": "large_image_with_text",
+      "value": "Large image with text."
+    },
+    {
+      "name": "three_small_images_with_text",
+      "value": "Three images with text."
+    },
+    {
+      "name": "small_image_with_text",
+      "value": "Small image with text."
+    },
+    {
+      "name": "video_with_text",
+      "value": "Video with text."
+    },
+    {
+      "name": "ad_with_app_download_button",
+      "value": "Ad with app download button."
+    },
+    {
+      "name": "status_ad_loading",
+      "value": "Ad loading state: being loaded."
+    },
+    {
+      "name": "status_load_ad_success",
+      "value": "Ad loading state: loaded successfully."
+    },
+    {
+      "name": "status_load_ad_finish",
+      "value": "Ad loading state: loaded finish."
+    },
+    {
+      "name": "status_load_ad_fail",
+      "value": "Ad loading state: failed to be loaded. Error code: "
+    },
+    {
+      "name": "status_play_start",
+      "value": "Video playback state: starting to be played."
+    },
+    {
+      "name": "status_playing",
+      "value": "Video playback state: being played."
+    },
+    {
+      "name": "status_play_end",
+      "value": "Video playback state: playback completed."
+    },
+    {
+      "name": "ad_is_closed",
+      "value": "Ad is closed."
+    },
+    {
+      "name": "ad_id_reward",
+      "value": "testx9dtjwj8hp"
+    },
+    {
+      "name": "reward_ad_title",
+      "value": "This is rewarded ads sample."
+    },
+    {
+      "name": "play_button",
+      "value": "Play"
+    },
+    {
+      "name": "watch_video_button_text",
+      "value": "Watch Video"
+    },
+    {
+      "name": "ad_id_splash",
+      "value": "testd7c5cewoj6"
+    },
+    {
+      "name": "ad_id_splash_landscape",
+      "value": "testq6zq98hecj"
+    },
+    {
+      "name": "owner",
+      "value": "HUAWEI Developer"
+    },
+    {
+      "name": "media_name",
+      "value": "HUAWEI Ads"
+    },
+    {
+      "name": "copyright_info",
+      "value": "Copyright 2020. Huawei Technologies Co., Ltd"
+    },
+    {
+      "name": "status_ad_dismissed",
+      "value": "Splash Ad is dismissed."
+    },
+    {
+      "name": "interstitial_title_text",
+      "value": "This is interstitial ad sample."
+    },
+    {
+      "name": "image_ad_id",
+      "value": "teste9ih9j0rc3"
+    },
+    {
+      "name": "video_ad_id",
+      "value": "testb4znbuh3n2"
+    },
+    {
+      "name": "load_button",
+      "value": "Load Ad"
+    },
+    {
+      "name": "interstitial_display_picture",
+      "value": "Image"
+    },
+    {
+      "name": "interstitial_display_video",
+      "value": "Video"
+    },
+    {
+      "name": "instream_video_content",
+      "value": "Your video content"
+    },
+    {
+      "name": "instream_skip_ad",
+      "value": "Skip"
+    },
+    {
+      "name": "instream_ad_id",
+      "value": "testy3cglm3pj0"
+    },
+    {
+      "name": "instream_mute",
+      "value": "Mute"
+    },
+    {
+      "name": "instream_unmute",
+      "value": "UnMute"
+    },
+    {
+      "name": "instream_play",
+      "value": "Play"
+    },
+    {
+      "name": "instream_pause",
+      "value": "Pause"
+    }
+  ]
+}

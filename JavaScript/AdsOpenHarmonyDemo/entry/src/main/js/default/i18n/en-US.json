@@ -1,0 +1,20 @@
+{
+  "strings": {
+    "next": "next",
+    "native": "Native Ad",
+    "banner": "Banner Ad",
+    "requestAd": "Request Ad",
+    "showAd": "Show Ad",
+    "reward": "Reward Ad",
+    "interstitial": "Interstitial Ad",
+    "init": "Request Ad",
+    "loading": "loading...",
+    "loaded": "Show Ad",
+    "shown": "Refresh Ad",
+    "error": "Request Ad",
+    "refresh_time": "Refresh Time",
+    "select_size_text": "Please select one banner size",
+    "banner_size": "Banner Size",
+    "ad_text": "AD"
+  }
+}

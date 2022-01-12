@@ -1,0 +1,109 @@
+{
+  "app": {
+    "bundleName": "com.huawei.hms.ads.ohos.sdk",
+    "vendor": "huawei",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.huawei.hms.ads.ohos.sdk",
+    "name": "com.huawei.hms.ads.ohos.sdk.AdsSampleApplication",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "name": "com.huawei.hms.ads.ohos.sdk.SplashAbility",
+        "type": "page",
+        "launchType": "standard",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "description": "$string:mainability_description",
+        "orientation": "unspecified",
+        "visible": true,
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Wallpaper.NoTitleBar.Fullscreen"
+            }
+          ]
+        },
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },{
+        "name": "com.huawei.hms.ads.ohos.sdk.MainAbility",
+        "launchType": "standard",
+        "type": "page",
+        "visible": true,
+        "orientation": "unspecified",
+        "configChanges": [
+          "orientation"
+        ]
+      },{
+        "name": "com.huawei.hms.ads.ohos.sdk.BannerAbility",
+        "launchType": "standard",
+        "type": "page",
+        "visible": true,
+        "orientation": "unspecified",
+        "configChanges": [
+          "orientation"
+        ]
+      },{
+        "name": "com.huawei.hms.ads.ohos.sdk.NativeAbility",
+        "launchType": "standard",
+        "type": "page",
+        "visible": true,
+        "orientation": "unspecified",
+        "configChanges": [
+          "orientation"
+        ]
+      },{
+        "name": "com.huawei.hms.ads.ohos.sdk.RewardAbility",
+        "launchType": "standard",
+        "type": "page",
+        "visible": true,
+        "orientation": "unspecified",
+        "configChanges": [
+          "orientation"
+        ]
+      },{
+        "name": "com.huawei.hms.ads.ohos.sdk.InterstitialAbility",
+        "launchType": "standard",
+        "type": "page",
+        "visible": true,
+        "orientation": "unspecified",
+        "configChanges": [
+          "orientation"
+        ]
+      },{
+        "name": "com.huawei.hms.ads.ohos.sdk.InstreamAbility",
+        "launchType": "standard",
+        "type": "page",
+        "visible": true,
+        "orientation": "unspecified",
+        "configChanges": [
+          "orientation"
+        ]
+      }
+    ]
+  }
+}

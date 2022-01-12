@@ -1,0 +1,36 @@
+{
+  "integer": [
+    {
+      "name": "privacy_start",
+      "value": 1033
+    },
+    {
+      "name": "privacy_end",
+      "value": 1048
+    },
+    {
+      "name": "personalized_start",
+      "value": 1104
+    },
+    {
+      "name": "personalized_end",
+      "value": 1108
+    },
+    {
+      "name": "init_here_start",
+      "value": 347
+    },
+    {
+      "name": "init_here_end",
+      "value": 351
+    },
+    {
+      "name": "more_info_here_start",
+      "value": 133
+    },
+    {
+      "name": "more_info_here_end",
+      "value": 137
+    }
+  ]
+}
