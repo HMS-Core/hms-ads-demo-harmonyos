@@ -1,4 +1,4 @@
-package com.huawei.ohos.ads.js.demo;
+package com.huawei.ohos.ads.ads.demo;
 
 import ohos.aafwk.ability.delegation.AbilityDelegatorRegistry;
 import org.junit.Test;
@@ -9,6 +9,6 @@ public class ExampleOhosTest {
     @Test
     public void testBundleName() {
         final String actualBundleName = AbilityDelegatorRegistry.getArguments().getTestBundleName();
-        assertEquals("com.huawei.ohos.ads.js.demo", actualBundleName);
+        assertEquals("com.huawei.ohos.ads.ads.demo", actualBundleName);
     }
 }
