@@ -24,9 +24,9 @@ public class MainAbility extends Ability implements OaidCallback {
 
     protected void initView() {
         // Create the "ad_id" TextView, which tries to show the obtained "OAID".
-        mOaid = findComponentById(ResourceTable.Id_oaid);
+        mOaid =  (Text) findComponentById(ResourceTable.Id_oaid);
         // Create the "disable_ad_id" TextView, which tries to show the obtained "Disable Personalized Ads" Switch
-        mDAP = findComponentById(ResourceTable.Id_dap);
+        mDAP =  (Text) findComponentById(ResourceTable.Id_dap);
         getIdentifierThread.start();
     }
 
