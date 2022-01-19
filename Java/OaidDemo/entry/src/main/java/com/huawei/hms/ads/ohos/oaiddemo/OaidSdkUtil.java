@@ -13,9 +13,12 @@
 
 package com.huawei.hms.ads.ohos.oaiddemo;
 
+import com.huawei.hms.ads.identifier.AdvertisingIdClient;
 import ohos.app.Context;
 import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
+
+import java.io.IOException;
 
 public class OaidSdkUtil {
 
@@ -25,6 +28,18 @@ public class OaidSdkUtil {
         if (null == context || null == callback) {
             HiLog.error(LABEL, "invalid input param");
             return;
+        }
+       try {
+            //Get advertising id information. Do not call this method in the main thread.
+            AdvertisingIdClient.Info info = AdvertisingIdClient.getAdvertisingIdInfo(context);
+            if (null != info) {
+                callback.onSuccess(info.getId(), info.isLimitAdTrackingEnabled());
+            } else {
+                callback.onFail("oaid is null");
+            }
+        } catch (IOException e) {
+            HiLog.error(LABEL, "getAdvertisingIdInfo IOException");
+            callback.onFail("getAdvertisingIdInfo IOException");
         }
     }
 }
