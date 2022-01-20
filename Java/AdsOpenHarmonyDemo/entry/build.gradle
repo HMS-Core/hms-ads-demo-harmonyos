@@ -4,22 +4,22 @@ apply plugin: 'com.huawei.ohos.decctest'
 ohos {
     signingConfigs {
         debug {
-            storeFile file('../keys/hw_ads_ohos_demo_debug.p12')
-            storePassword '0000001803959C25409A9871A2DFD7582060B1337C778FFDAC200FF00E1E04EA803ED3290C2ABF3C'
-            keyAlias = 'HuaweiAdsDemo'
-            keyPassword '0000001859225CD5B37D56C7B0CA048B9240971F40112004FD9C77D6FAAAAC57EDB577FFA4578F1E'
+            storeFile file('../keys/HwAdsOhosDemoKey.p12')
+            storePassword '00000018B91834F1E83BC107A24D1B3E60AFA21CF6B7F4D9C8B41C94A933B476989C3423DB181686'
+            keyAlias = 'HuaweiAdsOhosDemo'
+            keyPassword '00000018DA0AAB0D6EB9CC41227FB1AFBCA103AA585683D8AEE6C042550D817B7914E00D9BF8EEE2'
             signAlg = 'SHA256withECDSA'
             profile file('../keys/HuaweiAdsOhosDemoDebug.p7b')
             certpath file('../keys/HuaweiAdsOhosDemoDebug.cer')
         }
         release {
-            storeFile file('../keys/hw_ads_ohos_demo_debug.p12')
-            storePassword '0000001803959C25409A9871A2DFD7582060B1337C778FFDAC200FF00E1E04EA803ED3290C2ABF3C'
-            keyAlias = 'HuaweiAdsDemo'
-            keyPassword '0000001859225CD5B37D56C7B0CA048B9240971F40112004FD9C77D6FAAAAC57EDB577FFA4578F1E'
+            storeFile file('../keys/HwAdsOhosDemoKey.p12')
+            storePassword '00000018BB7600F1CE05E495BE313B0DE24A3334D965F2C6E539BD7778C2DD418B5E1BF636560D95'
+            keyAlias = 'HuaweiAdsOhosDemo'
+            keyPassword '00000018689A0926B8812100067DCDA02CDA91330ED1D7444286EB3A9D5143A7FD3325F5B584DC3F'
             signAlg = 'SHA256withECDSA'
-            profile file('../keys/HuaweiAdsOhosDemoReleaseRelease.p7b')
-            certpath file('../keys/HuaweiAdsOhosDemo.cer')
+            profile file('../keys/HuaweiAdsOhosDemoDebug.p7b')
+            certpath file('../keys/HuaweiAdsOhosDemoDebug.cer')
         }
     }
     compileSdkVersion 7
