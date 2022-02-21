@@ -20,7 +20,10 @@ import ads from '@hw-ads/ohos-ads';
 
 export default {
     data: {
+        ids: [],
         adId: "testu7m3hc4gvm",
+        detailedCreativeTypeList: [],
+        adType: 3,
         status: 'init',
         nativeAd: null, // 原生广告对象
         adList: [] // 原生广告素材对象，填充原生广告视图组件
@@ -43,11 +46,14 @@ export default {
                 duration: 2000,
             });
             return;
-        }
+        };
+        this.ids = [this.adId];
 
         // 创建广告对象并设置广告位等自定义属性
         this.nativeAd = ads.createNativeAd({
-            adIds: [this.adId]
+            adIds: this.ids,
+            adType: this.adType,
+            detailedCreativeTypeList: this.detailedCreativeTypeList
         });
 
         // 设置广告加载成功回调函数，在此回调函数中设置广告素材对象
