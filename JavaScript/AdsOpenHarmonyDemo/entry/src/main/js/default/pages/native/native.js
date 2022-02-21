@@ -25,8 +25,10 @@ export default {
         detailedCreativeTypeList: [],
         adType: 3,
         status: 'init',
-        nativeAd: null, // 原生广告对象
-        adList: [] // 原生广告素材对象，填充原生广告视图组件
+        // 原生广告对象
+        nativeAd: null,
+        // 原生广告素材对象，填充原生广告视图组件
+        adList: []
     },
     onRequestAdBtnClickHandler() {
         if (this.status === 'loading') {
