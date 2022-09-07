@@ -146,8 +146,8 @@ public class SplashAbility extends Ability {
             try {
                 Intent intent = new Intent();
                 Operation operation = new Intent.OperationBuilder()
-                        .withBundleName("com.huawei.hms.ads.ohos.sdk")
-                        .withAbilityName("com.huawei.hms.ads.ohos.sdk.MainAbility")
+                        .withBundleName(getBundleName())
+                        .withAbilityName(MainAbility.class.getName())
                         .build();
                 intent.setOperation(operation);
                 startAbility(intent);
