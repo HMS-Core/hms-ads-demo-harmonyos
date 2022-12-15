@@ -1,4 +1,4 @@
-# 华为广告服务JavaScript示例代码
+# 鲸鸿动能广告服务鸿蒙JavaScript示例代码
 中文 | [English](README.md)
 ## 目录
 
@@ -12,7 +12,7 @@
 
 
 ## 简介
-harmony-ads-js-demo 示例代码向您介绍如何将 HaromnyOS  Ads JS API 集成到JS FA页面中，实现广告展示。
+harmony-ads-js-demo 示例代码向您介绍如何将鲸鸿动能广告服务鸿蒙 JS API 集成到JS FA页面中，实现广告展示。
 
 ## 安装
 在华为手机上安装该示例代码项目。
@@ -25,7 +25,8 @@ harmony-ads-js-demo 示例代码向您介绍如何将 HaromnyOS  Ads JS API 集�
 在华为手机上安装HMS Core (APK) 6.1.0及以上版本。
 
 ## 示例代码
-harmony-ads-js-demo 示例代码集成了 HaromnyOS  Ads JS API，为您提供横幅广告、原生广告、激励广告、插屏广告的展示页面。本示例代码包括以下四个JS FA页面，便于您进行广告加载、展示：
+harmony-ads-js-demo 示例代码集成了鲸鸿动能广告服务鸿蒙 JS API，为您提供横幅广告、原生广告、激励广告、插屏广告的展示页面。
+本示例代码包括以下四个JS FA页面，便于您进行广告加载、展示：
 
 1). banner.hml
 用于加载、展示横幅广告。
@@ -62,5 +63,5 @@ Reward Ads&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
 如果您在尝试示例代码中遇到问题，请向仓库提交[issue](https://github.com/HMS-Core/hms-ads-demo-harmonyos/issues)，也欢迎您提交[Pull Request](https://github.com/HMS-Core/hms-ads-demo-harmonyos/pulls)。
 
 ##  授权许可
-华为广告服务JavaScript示例代码经过 [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可。
+鲸鸿动能广告服务鸿蒙JavaScript示例代码经过 [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可。
 
