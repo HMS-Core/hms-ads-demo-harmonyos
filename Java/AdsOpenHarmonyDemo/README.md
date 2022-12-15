@@ -1,4 +1,4 @@
-# HUAWEI Ads Kit HarmonyOS Sample Code (Java)
+# Petal Ads HarmonyOS Sample Code (Java)
 English | [中文](README_ZH.md)
 ## Contents
 
@@ -12,7 +12,7 @@ English | [中文](README_ZH.md)
 
 
 ## Introduction
-The Java sample code provided by Ads Kit describes how to display ads by integrating the HUAWEI Ads Ohos SDK into your HarmonyOS app.
+The Java sample code provided by Petal Ads Kit describes how to display ads by integrating the Petal Ads Ohos SDK into your HarmonyOS app.
 
 ## Installation
 Install the sample code on a phone running HarmonyOS.
@@ -24,7 +24,7 @@ No configuration is required.
 Your phone runs HarmonyOS and has HMS Core (APK) 6.2.0.300 or later installed.
 
 ## Sample Code
-The Java sample code provided by Ads Kit integrates the HUAWEI Ads Ohos SDK, which offers a range of ad formats including banner, native, rewarded, interstitial, splash, and roll ads. The sample code contains the following files for you to load and display ads and obtain user consent:
+The Java sample code provided by Petal Ads integrates the Petal Ads Ohos SDK, which offers a range of ad formats including banner, native, rewarded, interstitial, splash, and roll ads. The sample code contains the following files for you to load and display ads and obtain user consent:
 
 1). BannerAbility.java
 Used to load and display banner ads.
