@@ -1,4 +1,4 @@
-# 华为广告服务鸿蒙JavaScript示例代码
+# 鲸鸿动能广告标识服务鸿蒙JavaScript示例代码
 中文 | [English](README.md)
 ## 目录
 
@@ -11,7 +11,7 @@
 
 
 ## 简介
-华为广告服务（HUAWEI Ads Kit）JavaScript示例代码向您介绍如何将OAID JS API集成到HarmonyOS应用中，基于OAID，可在保护用户个人数据隐私安全的前提下，向用户提供个性化广告。
+鲸鸿动能广告标识服务JavaScript示例代码向您介绍如何将OAID JS API集成到HarmonyOS应用中，基于OAID，可在保护用户个人数据隐私安全的前提下，向用户提供个性化广告。
 
 ## 安装
 在HarmonyOS系统手机上安装该示例代码项目。
@@ -23,7 +23,7 @@
 在HarmonyOS系统手机上安装HMS Core (APK) 6.2.0.300及以上版本。
 
 ## 示例代码
-广告标识服务JavaScript示例代码集成了OAID JS API，可获取HarmonyOS系统设备上的OAID，在集成OAID JS API之前，您需要先完成集成HUAWEI Ads Ohos SDK的操作。
+鲸鸿动能广告标识服务JavaScript示例代码集成了OAID JS API，可获取HarmonyOS系统设备上的OAID，在集成OAID JS API之前，您需要先完成集成Petal Ads Ohos SDK的操作。
 	
 index.js
 获取广告标识符（OAID）和“限制个性化广告”开关状态。
@@ -39,5 +39,5 @@ index.js
 如果您在尝试示例代码中遇到问题，请向仓库提交[issue](https://github.com/HMS-Core/hms-ads-demo-harmonyos/issues)，也欢迎您提交[Pull Request](https://github.com/HMS-Core/hms-ads-demo-harmonyos/pulls)。
 
 ##  授权许可
-华为鸿蒙广告服务Java示例代码经过 [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可。
+鲸鸿动能广告标识服务Java示例代码经过 [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可。
 
