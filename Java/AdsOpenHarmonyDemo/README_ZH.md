@@ -1,4 +1,4 @@
-# 华为广告服务鸿蒙Java示例代码
+# 鲸鸿动能广告服务鸿蒙Java示例代码
 中文 | [English](README.md)
 ## 目录
 
@@ -12,7 +12,7 @@
 
 
 ## 简介
-华为广告服务（HUAWEI Ads Kit）鸿蒙Java示例代码向您介绍如何将HUAWEI Ads Ohos SDK集成到HarmonyOS应用中，实现广告展示。
+鲸鸿动能广告服务鸿蒙Java示例代码向您介绍如何将HUAWEI Ads Ohos SDK集成到HarmonyOS应用中，实现广告展示。
 
 ## 安装
 在HarmonyOS系统手机上安装该示例代码项目。
@@ -24,7 +24,8 @@
 在HarmonyOS系统手机上安装HMS Core (APK) 6.2.0.300及以上版本。
 
 ## 示例代码
-华为广告服务Java示例代码集成了HUAWEI Ads Ohos SDK，为您提供横幅广告、原生广告、激励广告、插屏广告、开屏广告和贴片广告的展示页面。本示例代码包括以下六个文件，便于您进行广告加载、展示和用户意见征集：
+鲸鸿动能广告服务Java示例代码集成了鲸鸿动能鸿蒙SDK，为您提供横幅广告、原生广告、激励广告、插屏广告、开屏广告和贴片广告的展示页面。
+本示例代码包括以下六个文件，便于您进行广告加载、展示和用户意见征集：
 
 1). BannerAbility.java
 用于加载、展示横幅广告。
@@ -69,4 +70,4 @@ Reward Ads&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Instream Ads&emsp;&em
 如果您在尝试示例代码中遇到问题，请向仓库提交[issue](https://github.com/HMS-Core/hms-ads-demo-harmonyos/issues)，也欢迎您提交[Pull Request](https://github.com/HMS-Core/hms-ads-demo-harmonyos/pulls)。
 
 ##  授权许可
-华为鸿蒙广告服务Java示例代码经过 [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可。
+鲸鸿动能广告服务鸿蒙Java示例代码经过 [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可。
