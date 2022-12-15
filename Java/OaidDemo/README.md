@@ -1,4 +1,4 @@
-# HUAWEI Ads Kit HarmonyOS Sample Code (Java)
+# Petal Ads HarmonyOS Sample Code (Java)
 English | [中文](README_ZH.md)
 ## Contents
 
@@ -11,7 +11,7 @@ English | [中文](README_ZH.md)
 
 
 ## Introduction
-The Java sample code provided by Ads Kit describes how to integrate the HUAWEI Ads Ohos OAID SDK into your HarmonyOS app to obtain the OAID. Based on the OAID, you can recommend personalized ads to users while protecting their privacy.
+The Java sample code provided by Petal Ads describes how to integrate the Petal Ads Ohos OAID SDK into your HarmonyOS app to obtain the OAID. Based on the OAID, you can recommend personalized ads to users while protecting their privacy.
 
 ## Installation
 Install the sample code on a phone running HarmonyOS.
@@ -23,7 +23,7 @@ No configuration is required.
 Your phone runs HarmonyOS and has HMS Core (APK) 6.2.0.300 or later installed.
 
 ## Sample Code
-The Java sample code provided by the identifier service of Ads Kit integrates the HUAWEI Ads Ohos OAID SDK to obtain the OAID from the phone running HarmonyOS. Based on the OAID, you can recommend personalized ads to users while protecting their privacy.
+The Java sample code provided by the identifier service of Petal Ads integrates the Petal Ads Ohos OAID SDK to obtain the OAID from the phone running HarmonyOS. Based on the OAID, you can recommend personalized ads to users while protecting their privacy.
 	
 MainAbilitySlice.java
 Obtain the OAID and setting of **Disable personalized ads**.
