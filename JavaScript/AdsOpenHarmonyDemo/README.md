@@ -1,4 +1,4 @@
-# HUAWEI Ads Kit Harmony Ads Demo(JS)
+# Petal Ads Harmony Ads Demo(JS)
 English | [中文](README_ZH.md)
 ## Table of Contents
 
@@ -12,7 +12,7 @@ English | [中文](README_ZH.md)
 
 
 ## Introduction
-The harmony-ads-js-demo program demonstrates how to integrate the HaromnyOS  Ads JavaScript API into a JS FA page and display ads.
+The harmony-ads-js-demo program demonstrates how to integrate the Petal Ads HaromnyOS JavaScript API into a JS FA page and display ads.
 
 ## Installation
 Install the program on Huawei HaromnyOS mobile phones.
@@ -24,7 +24,7 @@ No additional configuration is required.
 HMS Core (APK) 6.1.0 or later has been installed on Huawei HaromnyOS phones.
 
 ## Sample Code
-The  harmony-ads-js-demo program integrates the HaromnyOS  Ads JavaScript API and provides the pages for displaying banner, native, rewarded, interstitial ads respectively.
+The  harmony-ads-js-demo program integrates the Petal Ads HaromnyOS JavaScript API and provides the pages for displaying banner, native, rewarded, interstitial ads respectively.
 The following JS FA pages in the demo are used for loading and displaying ads :
 
 1). banner.hml
