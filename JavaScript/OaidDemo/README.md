@@ -1,4 +1,4 @@
-# HUAWEI Ads Kit HarmonyOS Sample Code (JavaScript)
+# Petal Ads HarmonyOS Sample Code (JavaScript)
 English | [中文](README_ZH.md)
 ## Contents
 
@@ -11,7 +11,7 @@ English | [中文](README_ZH.md)
 
 
 ## Introduction
-The JavaScript sample code provided by Ads Kit describes how to integrate the OAID JavaScript API into your HarmonyOS app to obtain the OAID. Based on the OAID, you can recommend personalized ads to users while protecting their privacy.
+The JavaScript sample code provided by Petal Ads describes how to integrate the OAID JavaScript API into your HarmonyOS app to obtain the OAID. Based on the OAID, you can recommend personalized ads to users while protecting their privacy.
 
 ## Installation
 Install the sample code on a phone running HarmonyOS.
@@ -23,7 +23,7 @@ No configuration is required.
 Your phone runs HarmonyOS and has HMS Core (APK) 6.2.0.300 or later installed.
 
 ## Sample Code
-The JavaScript sample code provided by the identifier service of Ads Kit integrates the OAID JavaScript API to obtain the OAID from the phone running HarmonyOS. Before doing this, you need to integrate the HUAWEI Ads Ohos SDK.
+The JavaScript sample code provided by the identifier service of Ads Kit integrates the OAID JavaScript API to obtain the OAID from the phone running HarmonyOS. Before doing this, you need to integrate the Petal Ads Ohos SDK.
 	
 index.js
 Obtain the OAID and setting of **Disable personalized ads**.
