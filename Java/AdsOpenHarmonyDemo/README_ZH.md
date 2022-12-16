@@ -12,7 +12,7 @@
 
 
 ## 简介
-鲸鸿动能广告服务鸿蒙Java示例代码向您介绍如何将HUAWEI Ads Ohos SDK集成到HarmonyOS应用中，实现广告展示。
+鲸鸿动能广告服务鸿蒙Java示例代码向您介绍如何将鲸鸿动能鸿蒙SDK集成到HarmonyOS应用中，实现广告展示。
 
 ## 安装
 在HarmonyOS系统手机上安装该示例代码项目。
