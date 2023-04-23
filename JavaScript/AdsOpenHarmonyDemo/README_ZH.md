@@ -30,7 +30,7 @@ harmony-ads-js-demo 示例代码集成了鲸鸿动能广告服务鸿蒙 JS API�
 
 1). banner.hml
 用于加载、展示横幅广告。
-<br>代码位置：enty\src\main\js\default\pages\banner\banner.hm</br>
+<br>代码位置：enty\src\main\js\default\pages\banner\banner.hml</br>
     
 2). native.hml
 用于加载、展示原生广告。
